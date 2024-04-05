@@ -1,0 +1,128 @@
+/* 
+ ----------COLORS----------
+
+ Primary: #47bbc5 
+
+ purple-light: #C892F9 
+ purple-dark: #A460EB 
+
+ blue-light: #70A3D5 
+ blue-dark: #6767D2 
+
+ yellow-light: #FDB685 
+ yellow-dark: #FE888E 
+
+*/
+
+:root {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  font-size: 3rem; /* Remove it */
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+/*
+
+ header start
+
+*/
+
+.header {
+  grid-column: 10 span;
+  height: 9vh;
+
+  display: flex;
+}
+
+.header__logo {
+  width: 20%;
+  color: #47bbc5;
+  font-weight: 900;
+  font-size: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+
+ header end
+
+*/
+
+/*
+
+ sidebar start
+
+*/
+
+.sidebar {
+  grid-column: 2 span;
+  min-height: 91vh;
+}
+
+/*
+
+ sidebar end
+
+*/
+
+.main {
+  background-color: #f5f5f5;
+  grid-column: 8 span;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  padding: 4.5rem 4rem;
+}
+
+.title {
+  height: 4rem; /* Remove it */
+}
+
+/*
+
+ cards start
+
+*/
+
+.cards {
+  height: 25rem; /* Remove it */
+  background-color: red; /* Remove it */
+}
+
+/*
+
+ cards end
+
+*/
+
+/*
+
+ table start
+
+*/
+
+.table {
+  height: 32rem; /* Remove it */
+  background-color: green; /* Remove it */
+}
+
+/*
+
+ table end
+
+*/
