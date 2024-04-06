@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LogIn</title>
+    <link rel="stylesheet" href="./style/login.css">
 
     <!-- FONT -->
     <link
@@ -21,6 +22,58 @@
     <link rel="stylesheet" href="./style/login.css" />
   </head>
   <body>
-    <h1>heloooooooo</h1>
+    <div class="container">
+      <section class="login-section">
+        <div class="login-inner-section">
+          <h1 class="title">Sign In</h1>
+          <form>
+            <div class="email">
+              <label for="">Email Address*</label>
+              <input type="email" required>
+            </div>
+            <div class="password">
+              <label for="">Password*</label>
+              <input type="password" required>
+            </div>
+            <div class="checkbox-part">
+              <div class="remember">
+                <input type="checkbox" class="checkbox">
+                <label for="">Remember me</label>
+              </div>
+              <div class="forget-btn"><a href="#">Forget Password?</a></div>
+            </div>
+            <div class="cta-signin">
+              <button>Sign In</button>
+            </div>
+          </form>
+          <div class="line">
+            <div class="line1"></div>
+            <span class="line-content">or Sign In with</span>
+            <div class="line1"></div>
+          </div>
+          <div class="link">
+            <img src="./images/Logo-Search-Google--on-transparent-background-PNG.png" alt="" class="logo" >
+            <a href="#">Sign In with Google</a>
+          </div>
+          <div class="link">
+            <i class="fa-brands fa-facebook-f logo-fs"></i>
+            <a href="#">Sign In with Facebook</a>
+          </div>
+          <div class="sign-up">
+            <span>Don't have an account?</span>
+            <span><a href="#">Sign Up</a></span>
+          </div>
+
+
+        </div>
+
+      </section>
+      <div class="circle circle1 circle-small"></div>
+      <div class="circle circle-larg circle2"></div>
+      <div class="circle circle3 circle-medium"></div>
+      <div class="circle circle-larg circle4" ></div>
+      <div class="circle circle-small circle5 "></div> 
+
+    </div>
   </body>
 </html>

@@ -20,4 +20,222 @@
 
 body {
   font-family: Poppins;
+  background-image:linear-gradient(to bottom,#47bbc5 ,#47bbc57a );
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+/* .container{
+  font-size: 1.6rem;
+} */
+.login-inner-section{
+  width:40rem;
+  /* margin: 0 auto; */
+  /* margin-top:10rem; */
+  background-color:#ffffffa1;
+  backdrop-filter: blur(10px);
+  border-radius: 3rem;
+  padding: 3rem 4rem;
+  z-index: 99;
+  position: relative;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+}
+.password{
+  display: flex;
+  flex-direction: column;
+}
+.checkbox-part{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.remember{
+  display: flex;
+  gap:.5rem;
+  align-items: center;
+}
+.cta-signin button{
+  width: 100%;
+  display:inline-block;
+}
+.line{
+  margin-top:2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.line-content{
+  font-size: 1.4rem;
+  color: #212121;
+}
+.line1{
+  width:30%;
+  height: 1px;
+  background-color: #212121;
+}
+.link{
+  text-align: center;
+  margin-top: 2rem;
+
+}
+.sign-up{
+  text-align: center;
+  margin-top: 2rem;
+
+}
+.title{
+  font-size: 2.5rem;
+  margin-bottom:2rem;
+  color:#212121 ;
+}
+.email label{
+  font-weight:400;
+  font-size: 1.4rem;
+  color: #212121;
+  margin-bottom: 1rem;
+}
+.email input{
+  outline:unset;
+  border:unset;
+  padding:1rem;
+  border-radius:7rem;
+  margin-bottom: 2rem;
+  
+}
+.password label{
+  font-weight:400;
+  font-size: 1.4rem;
+  color: #212121;
+  margin-bottom: 1rem;
+}
+.password input{
+  outline:unset;
+  border:unset;
+  padding:1rem;
+  border-radius:7rem;
+  margin-bottom: 1.2rem;
+  
+}
+.remember label{
+  font-size: 1.2rem;
+  color: #212121;
+}
+.checkbox{
+  border:none;
+  outline:none;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.forget-btn a{
+  text-decoration: none;
+  color: #0D47A1;
+  font-size: 1.2rem;
+}
+.checkbox-part{
+  margin-bottom: 3rem;
+}
+.cta-signin button{
+  border: unset;
+  outline: unset;
+  padding: 1rem;
+ background-color: #47bbc5 ;
+ color: #fff;
+ border-radius: 7rem;
+ font-size: 1.4rem;
+ font-weight: 400;
+}
+.cta-signin{
+  margin-bottom: 3rem;
+}
+.link{
+  font-size: 1.4rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 7rem;
+}
+.link a{
+  text-decoration: none;
+  color: #212121;
+}
+.sign-up{
+  font-size: 1.2rem;
+}
+.sign-up a{
+  text-decoration: none;
+  color: #0D47A1;
+}
+.logo{
+  width:2rem;
+  height: 2rem;
+}
+.logo-fs{
+  color: #0D47A1;
+  font-size: 2rem;
+}
+.circle-small{
+  width: 10rem;
+  height:10rem ;
+}
+.circle-medium{
+  width: 15rem;
+  height: 15rem;
+}
+.circle-larg{
+  width: 20rem;
+  height: 20rem;
+}
+.circle{
+  background-image:linear-gradient(45deg,#ffeb3b9f,#ffcdd272);
+  border-radius: 100%;
+  position: absolute;
+  z-index: 9;
+  animation: rotate 3s linear infinite;
+}
+.circle1{
+  top: 5rem;
+  left: 40rem;
+
+}
+.circle2{
+  top: 28rem;
+  left:33rem;
+  background-image:linear-gradient(45deg,#ffeb3b9f,#f0629182);
+}
+.circle3{
+  top:8rem;
+  right:45rem;
+  background-image:linear-gradient(140deg,#ffeb3bae,#ffcdd2);
+
+}
+.circle4{
+  top:50rem;
+  right:50rem;
+  background-image:linear-gradient(180deg,#f0629138,#f06291a1);
+}
+.circle5{
+  top:60rem;
+  left: 50rem;
+  background-image:linear-gradient(180deg,#ffeb3bc2,#ffcdd2);
+}
+@keyframes rotate{
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+
+  }
+
 }
