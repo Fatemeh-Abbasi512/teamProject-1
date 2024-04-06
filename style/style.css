@@ -29,7 +29,7 @@
 
 body {
   font-family: Poppins;
-  font-size: 3rem; /* Remove it */
+  color: #333;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
 }
@@ -118,8 +118,51 @@ body {
 */
 
 .table {
-  height: 32rem; /* Remove it */
-  background-color: green; /* Remove it */
+  background-color: #fff;
+  border-radius: 2rem;
+  padding: 2.5rem 4rem;
+}
+
+.table__title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.table__container {
+  width: 100%;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.table__row > * {
+  padding-bottom: 2rem;
+}
+
+.table__head {
+  width: 23%;
+}
+
+.table__state {
+  color: #fff;
+  text-align: center;
+}
+
+.table__state-span {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+}
+
+.table__state--verified {
+  background-image: linear-gradient(to bottom, #c892f9, #a460eb);
+}
+
+.table__state--active {
+  background-image: linear-gradient(to bottom, #70a3d5, #6767d2);
+}
+
+.table__state--disable {
+  background-image: linear-gradient(to bottom, #fdb685, #fe888e);
 }
 
 /*
