@@ -75,48 +75,51 @@ body {
   min-height: 91vh;
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-top:4rem ;
-  padding-bottom:6rem ;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
 }
 
-.user-info {display: flex;
-align-items: center;
+.user-info {
+  display: flex;
+  align-items: center;
 }
 .user-image {
-  width:5rem;
+  width: 5rem;
   height: 5rem;
   border-radius: 100%;
   margin-right: 1rem;
-  
 }
-.user-neme {font-size: 1.6rem;
-  font-weight:bold;
-
+.user-neme {
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 .user-gmail {
 }
-.items {margin-top: 2.5rem;
+.items {
+  margin-top: 2.5rem;
 }
-.item {display: flex;
+.item {
+  display: flex;
   justify-content: space-between;
-  font-size:1.5rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   list-style-type: none;
 }
-.item:hover{
+.item:hover {
   color: #47bbc5;
- cursor:pointer;
+  cursor: pointer;
 }
-.sidebar-link {background: linear-gradient(to bottom,#94e3eb,#3fafb9);
+.sidebar-link {
+  background: linear-gradient(to bottom, #94e3eb, #3fafb9);
   color: #fff;
- width: 100%;
- text-decoration: none;
- display: inline-block;
-font-size: 1.6rem;
-text-align: center;
-padding: 1rem;
-border-radius: 3px;
-margin-top: 2rem;
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 3px;
+  margin-top: 2rem;
 }
 /*
 
@@ -177,7 +180,7 @@ margin-top: 2rem;
   font-size: 1.4rem;
 }
 
-.table__row > * {
+.table__row:not(:last-child) > * {
   padding-bottom: 2rem;
 }
 
