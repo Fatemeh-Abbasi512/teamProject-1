@@ -23,7 +23,26 @@
   <body>
     <header class="header">
       <div class="header__logo">blueBox</div>
-      this is header
+      <div class="header__wrapper">
+        <div id="input">
+          <i class="fa-solid fa-magnifying-glass" id="search"></i>
+          <input
+            type="text"
+            name=""
+            placeholder="search image"
+            id="InputHeader"
+          />
+        </div>
+        <div id="about">
+          <img src="images/avatar.jpg" alt="" />
+          <p id="AboutUser">Angelina Doe</p>
+          <i class="HeaderIcon fa-solid fa-angle-down"></i>
+        </div>
+        <i class="HeaderIcon fa-solid fa-user"></i>
+        <a href="login.html">Login</a>
+        <!-- <i class="HeaderIcon fa-solid fa-person"></i> -->
+        <!-- <i class="HeaderIcon fa-solid fa-lock"></i> -->
+      </div>
     </header>
 
     <div class="sidebar">
@@ -48,8 +67,43 @@
     </div>
 
     <main class="main">
-      <div class="title">title</div>
-      <section class="cards">cards</section>
+      <div class="title">
+        🟦
+        <b>Dashbord</b>
+      </div>
+      <section class="cards">
+        <div id="CardOne">
+          <div>
+            <i class="icon fa-solid fa-address-card"></i>
+            <p class="AboutCard">Stock Total</p>
+            <p class="price AboutCard">$150,000</p>
+          </div>
+          <p class="discount AboutCard">increased by 60%</p>
+          <div class="ball" id="BallOneInCardeOne"></div>
+          <div class="ball" id="BallTwoInCardeOne"></div>
+        </div>
+
+        <div id="CardTwo">
+          <div>
+            <i class="icon fa-solid fa-database"></i>
+            <p class="AboutCard">Total Profit</p>
+            <p class="price AboutCard">$25,000</p>
+          </div>
+          <p class="discount AboutCard">increased by 30%</p>
+          <div class="ball" id="BallOneInCardeTwo"></div>
+          <div class="ball" id="BallTwoInCardeTwo"></div>
+        </div>
+        <div id="CardThree">
+          <div>
+            <i class="icon fa-solid fa-flag"></i>
+            <p class="AboutCard">Unique Visitors</p>
+            <p class="price AboutCard">$250,000</p>
+          </div>
+          <p class="discount AboutCard">increased by 80%</p>
+          <div class="ball" id="BallOneInCardeThree"></div>
+          <div class="ball" id="BallTwoInCardeThree"></div>
+        </div>
+      </section>
       <section class="table">
         <h2 class="table__title">Standard Table Desin</h2>
         <table class="table__container">
@@ -60,7 +114,9 @@
             <th class="table__head">Joined</th>
             <th class="table__head">State</th>
           </tr>
-          <tbody class="table__body"></tbody>
+          <tbody class="table__body">
+            <!-- Data comes from script file -->
+          </tbody>
         </table>
       </section>
     </main>
