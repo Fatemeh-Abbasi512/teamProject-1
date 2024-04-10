@@ -133,6 +133,11 @@ header img {
 */
 
 .sidebar {
+  /* stick to top while scrolling */
+  position: sticky;
+  top: 0;
+  height: fit-content;
+
   grid-column: 2 span;
   min-height: 91vh;
   padding-left: 5rem;
@@ -355,7 +360,7 @@ section div {
 }
 
 .table__body > .table__row:hover {
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 
 .table__body:hover > .table__row:not(:hover) {
