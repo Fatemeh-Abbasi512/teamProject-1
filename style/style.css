@@ -180,7 +180,8 @@ body {
   font-size: 1.4rem;
 }
 
-.table__row:not(:last-child) > * {
+.table__row:not(:last-child) > *,
+.table__row:first-child > * {
   padding-bottom: 2rem;
 }
 
