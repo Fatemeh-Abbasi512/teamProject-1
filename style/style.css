@@ -29,10 +29,14 @@
 
 body {
   font-family: Poppins;
+
+=======
   color: #333;
+
   display: grid;
   grid-template-columns: repeat(10, 1fr);
 }
+
 
 /*
 
@@ -41,10 +45,14 @@ body {
 */
 
 .header {
+  position: relative;
   grid-column: 10 span;
   height: 9vh;
-
   display: flex;
+  align-items: center;
+  font-size: 2rem;
+  justify-content: space-around;
+  
 }
 
 .header__logo {
@@ -56,6 +64,54 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+#input{
+  border: 1px solid black;
+  border-radius: 20rem;
+  padding:0 1rem;
+}
+#about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#InputHeader {
+  font-size: 1.7rem;
+  width: 50rem;
+  margin: 1rem 0;
+  border: 1px solid;
+  border: none;
+  outline: none;
+}
+#search{
+  left: 31rem;
+  opacity: 0.5;
+  padding-right: 5px;
+}
+a{
+  text-decoration: none;
+    font-size: 2rem;
+    color:  #47bbc5 ;
+    font-family: sans-serif;
+    border: 1px solid #47bbc5;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+header img {
+  border-radius: 7rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 1.4rem 5px;
+  cursor: pointer;
+}
+#AboutUser{
+  font-size: 1.5rem;
+
+}
+.HeaderIcon{
+  cursor: pointer;
 }
 
 /*
@@ -137,7 +193,7 @@ body {
 }
 
 .title {
-  height: 4rem; /* Remove it */
+font-size: 1.5rem;
 }
 
 /*
@@ -147,10 +203,113 @@ body {
 */
 
 .cards {
-  height: 25rem; /* Remove it */
-  background-color: red; /* Remove it */
+  display: flex;
+  justify-content: space-between;
+  height: 25rem;
 }
+section div{
+  height: 100%;
+  width: 30rem;
+  border-radius: 1.8rem;
 
+}
+#CardOne{
+  background-image: linear-gradient(to left top, #7426d5, #c4a4e7);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 3rem;
+}
+#CardTwo{
+  background-image: linear-gradient(to left top, #0e6ac6, #8aaed3);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 3rem;
+
+}
+#CardThree{
+  background-image: linear-gradient(to left top, #ff8d41, #fabb90);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 3rem;
+
+}
+.price{
+  font-weight: bold;
+  font-size: 1rem;
+}
+.ball{
+  position: absolute;  
+  width: 13rem;
+  height: 13rem;
+  border-radius: 7rem;
+  background-color: red;
+
+  /*display: inline-block;*/
+}
+#BallOneInCardeOne{
+  
+  top: 8rem;
+  left: 17rem;
+  /*margin: 0 0 0 17rem;*/
+  background-color: #b993e5;
+  opacity: 0.4;
+}
+#BallTwoInCardeOne{
+  top: 11.2rem;
+  left: 8rem;
+  /*margin: -7rem 0 0 7rem;*/
+  background-color: #b993e5;
+  opacity: 0.4;
+}
+#BallOneInCardeTwo{
+  top: 8rem;
+  left: 17rem;
+  /*margin: -2rem 0 0 17rem;*/
+  background-color: #79a5d1;
+  opacity: 0.4;
+}
+#BallTwoInCardeTwo{
+  top: 11.5rem;
+  left: 9rem;
+  /*margin:-7rem 0px 0 10rem;*/
+  background-color: #79a5d1;
+  opacity: 0.4;
+}
+#BallOneInCardeThree{
+  top: 8rem;
+  left: 17rem;
+  /*margin: 0 0 0 17rem;*/
+  background-color: #f8c7a3;
+  opacity: 0.4;
+}
+#BallTwoInCardeThree{
+  top: 12rem;
+  left: 9rem;
+  /*margin:-7rem 0 0 10rem;*/
+  background-color: #f8c7a3;
+  opacity: 0.4;
+}
+#Layer_1{
+  margin-bottom: -14px;
+}
+.icon{
+  color: white;
+  font-size: 4rem;
+  position: relative;
+  z-index: 5;
+}
+.AboutCard{
+  color: white;
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 5;
+}
+.discount{
+  justify-self: end;
+}
 /*
 
  cards end
@@ -164,6 +323,11 @@ body {
 */
 
 .table {
+
+  height: 32rem;
+  /* Remove it */
+  background-color: green;
+  /* Remove it */
   background-color: #fff;
   border-radius: 2rem;
   padding: 2.5rem 4rem;
@@ -210,6 +374,7 @@ body {
 
 .table__state--disable {
   background-image: linear-gradient(to bottom, #fdb685, #fe888e);
+
 }
 
 /*
